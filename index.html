@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div><h1 class="font">LOCALISE</h1></div>
+
+            <div><p class="font sub"> Busque seu endereço pelo CEP ou seu CEP pelo endereço.</p></div>
+            
+            <div class="aviso disabled">
+                <p id="mensagem">
+                       
+                </p>             
+            </div>
+            
+            <div><p class="font pequena">CEP</p></div>
+
+            <input type="text" id="cep" placeholder="Ex: 01001000">
+            <div><h2 class="font">OU</h2></div>  
+            <div><p class="font pequena">Estado</p></div>         
+            <select id="estados">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <div><p class="font pequena">Cidade</p></div>
+            <input type="text" id="cidade" placeholder="Ex: São Paulo">
+            <div><p class="font pequena">Rua</p></div>
+            <input type="text" id="rua" placeholder="Ex: Praça da Sé">
+            <input type="submit" id="descobrir" value="descobrir">
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
